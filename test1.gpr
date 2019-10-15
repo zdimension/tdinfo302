@@ -1,0 +1,11 @@
+project Test1 is
+
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Main use ("tp3_niget.adb", "discotheque", "tp2_tri_base", "tri_base", "tri_bulle", "tri_sel", "tp1", "carremagique", "reversi", "pascal", "phrases", "pgcd", "param_out", "parfait", "test_puiss", "somme_series", "notes", "annee", "main.adb");
+
+   package Compiler is
+   end Compiler;
+
+end Test1;
+
